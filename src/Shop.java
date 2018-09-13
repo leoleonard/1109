@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 public class Shop {
     public static void main(String[] args) {
         Product product = new Product("Proszek", 19.99, true);
@@ -32,8 +34,8 @@ public class Shop {
 //        System.out.println("Produkt " + productFour.name);
 //        System.out.println("Cena " + productFour.cena);
 
-
-
+        Product product3 = new Product("Zmywacz do paznokci", 12.99, true);
+        System.out.println(product3.name + " " + product3.cena + " " +  product3.dataWaznosci);
 
 
     }
